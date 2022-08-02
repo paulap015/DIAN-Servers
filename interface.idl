@@ -1,0 +1,17 @@
+module sop_corba{
+    interface ControladorCompraInt{
+		struct CompraDTO{
+			long idUsuario;
+			string tipoIdentificacion;	
+			double valorCompra;
+			string lugarCompra;
+			string fechaCompra;
+                        string medioPago;
+                        string nitEmpresa;
+		};
+		
+		typedef sequence<CompraDTO> ListCompra;
+		boolean registrarCompra( in CompraDTO objCompra);
+		ListCompra listarCanciones();		
+    };    	 
+};

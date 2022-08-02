@@ -1,0 +1,9 @@
+view\FrameClienteEmpresa$3.class
+service\IntCompraService.class
+model\Compra$CompraBuilder.class
+model\Compra.class
+view\ClienteMain.class
+service\CompraService.class
+view\FrameClienteEmpresa.class
+view\FrameClienteEmpresa$2.class
+view\FrameClienteEmpresa$1.class
